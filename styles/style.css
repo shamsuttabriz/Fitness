@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+NL:wght@100..400&display=swap");
+
+/* Inter font */
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Playwrite nl font */
+.playwrite-nl-regular {
+  font-family: "Playwrite NL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common Styles Start */
+.heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  color: #fff;
+}
+
+.description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #ffffff6d;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.btn {
+  background-color: #e6533c;
+  border: 0;
+  border-radius: 42px;
+  padding: 16px 40px;
+  font-size: 1.125rem;
+  color: #fff;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #e6533c;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Common Styles End */
+
+header {
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgb(46, 46, 46) 100%);
+}
+
+/* Navbar style start */
+nav {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #e6533c;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 120%;
+  font-style: italic;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid #ffffff1a;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.nav-link {
+  list-style: none;
+  padding: 8px 20px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.active {
+  background-color: #e6533c;
+}
+
+.active a {
+  font-weight: 600;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* Navbar style end */
+
+/* Hero Style Start */
+.hero-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 90px 0 76px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-hero {
+  width: 42%;
+}
+
+.right-hero {
+  width: 32%;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.hero-description {
+  margin: 28px 0;
+}
+
+.download-btn {
+  margin-left: 14px;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.download-btn:hover {
+  background-color: #e6533c;
+}
+
+.right-hero img {
+  width: 100%;
+}
+
+/* Hero Style End */
+
+/* Habits Styles Start */
+main {
+  background-color: #000;
+}
+
+.habits {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.habits-heading {
+  max-width: 670px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.habits-description {
+  margin: 14px 0 58px;
+}
+
+.habit-contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.habits-box {
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.habit-contents-image {
+  border: 3px solid #222;
+  border-radius: 50%;
+}
+
+.habit-contents-title {
+  color: #fff;
+  font-size: 1.125rem;
+  margin: 30px 0 6px;
+  font-weight: 600;
+}
+/* Habits Styles End */
+
+/* Run Styles Start */
+.run {
+  padding-bottom: 100px;
+}
+.run-extra {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #222;
+  border-radius: 18px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.run-content {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.run-description {
+  margin: 25px 0 32px;
+}
+
+.run-image {
+  width: 40%;
+}
+
+.run-image img {
+  width: 100%;
+  border-radius: 18px;
+}
+/* Run Styles End */
+
+/* Footer Styles Start */
+footer {
+  background-color: #222;
+}
+.footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.footer-logo {
+  width: 48%;
+}
+
+.footer-logo h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.footer-description {
+  margin-top: 16px;
+  line-height: 1.6rem;
+}
+
+.footer-link-1 {
+  width: 24%;
+}
+
+.footer-link-2 {
+  width: 24%;
+}
+
+.footer-link-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.footer-link {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-link-item {
+  text-decoration: none;
+  color: #ffffff6d;
+  transition: 0.3s;
+}
+
+.footer-link-item:hover {
+  color: #ffffffa7;
+}
+
+.footer-line {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.footer-line hr {
+  border: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff2a;
+}
+
+.footer-line p {
+  text-align: center;
+  padding: 15px 0;
+}
+/* Footer Styles End */

@@ -1,0 +1,154 @@
+@media screen and (max-width: 576px) {
+  /* Navbar responsive start*/
+  nav {
+    padding: 20px;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  /* Navbar responsive end*/
+
+  /* Hero responsive start */
+  .hero-section {
+    padding: 40px 0;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .left-hero {
+    width: 100%;
+  }
+
+  .right-hero {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+  }
+
+  .join-club-btn,
+  .download-btn {
+    font-size: 1rem;
+    padding: 12px 18px;
+  }
+
+  .join-club-btn span {
+    display: none;
+    font-size: 1rem;
+  }
+
+  .download-btn {
+    margin-left: 10px;
+  }
+
+  .right-hero {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .right-hero img {
+    width: 90%;
+  }
+  /* Hero responsive end */
+
+  /* Habits responsive start*/
+  .habits {
+    padding: 20px;
+  }
+
+  .habits-heading {
+    max-width: 318px;
+  }
+
+  .habits-box {
+    margin-bottom: 20px;
+  }
+
+  .habits-title {
+    font-size: 1.8rem;
+  }
+
+  .habit-contents {
+    flex-direction: column;
+  }
+  /* Habits responsive end */
+
+  /*  Run responsive start */
+  .run {
+    padding: 50px 20px;
+  }
+
+  .run-extra {
+    flex-direction: column;
+  }
+
+  .run-content {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .run-heading {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .run-description {
+    font-size: 0.85rem;
+    line-height: 1.6rem;
+  }
+
+  .run-btn {
+    width: 100%;
+  }
+
+  .run-image {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .run-image img {
+    width: 100%;
+    border-radius: 18px;
+  }
+  /*  Run responsive end */
+
+  /* Footer responsive start */
+  footer {
+    padding: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 0px;
+  }
+
+  .footer-logo {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .footer-link-1,
+  .footer-link-2 {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .footer-link-heading {
+    font-size: 1.6rem;
+  }
+  /* Footer responsive end */
+}
