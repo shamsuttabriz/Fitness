@@ -125,6 +125,25 @@
   }
   /*  Run responsive end */
 
+  /* Team responsive start */
+  .team {
+    padding: 0 20px 100px;
+  }
+
+  .team-title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .team-description {
+    padding: 0 20px;
+  }
+
+  .team-trainers {
+    grid-template-columns: 1fr;
+  }
+  /* Team responsive end */
+
   /* Footer responsive start */
   footer {
     padding: 20px;
