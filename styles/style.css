@@ -60,6 +60,7 @@
 
 header {
   background: linear-gradient(0deg, rgb(0, 0, 0), rgb(46, 46, 46) 100%);
+  position: relative;
 }
 
 /* Navbar style start */
@@ -138,7 +139,7 @@ nav {
 }
 
 .right-hero {
-  width: 32%;
+  width: 30%;
 }
 
 .hero-heading {
@@ -165,6 +166,53 @@ nav {
   width: 100%;
 }
 
+.workout-videos {
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: #ffffff1a;
+  padding: 17px 24px;
+  position: absolute;
+  top: 37%;
+  left: 71%;
+}
+
+.video-tutorial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: #ffffff1a;
+  padding: 17px 24px;
+  position: absolute;
+  top: 71%;
+  left: 55%;
+}
+
+.red-box {
+  width: 40px;
+  height: 40px;
+  background-color: #e6533c;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.up-box-title {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.up-box-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
 /* Hero Style End */
 
 /* Habits Styles Start */
@@ -351,7 +399,7 @@ select {
 .second-input input:focus,
 select {
   outline: none;
-  color: rgb(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255, 0.3);
 }
 
 .third-input select {
