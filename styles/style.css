@@ -249,6 +249,130 @@ main {
 }
 /* Run Styles End */
 
+/* BMI Calculator Styles Start */
+.bmi {
+  margin-bottom: 100px;
+}
+
+.bmi-heading {
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+.bmi-description {
+  margin: 14px 0 88px;
+}
+
+.bmi-functionality {
+  background-color: #222;
+}
+
+.bmi-content {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.bmi-subtitle {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: 0.03rem;
+  line-height: 120%;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-style: hidden;
+  border: 1px solid #ffffff1a;
+  margin-top: 50px;
+}
+table td {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid #ffffff1a;
+  color: #ffffff80;
+}
+table th {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid #ffffff1a;
+  color: #fff;
+  text-align: left;
+}
+
+.bmi-sub-description {
+  margin: 14px 0 34px;
+}
+
+.mi-chart {
+  max-width: 442px;
+}
+
+.bmi-calculate {
+  color: #fff;
+  max-width: 570px;
+}
+
+.first-input,
+.second-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.first-input input {
+  width: 50%;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+  font-size: 1rem;
+}
+
+.first-input input:focus {
+  outline: none;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.second-input input,
+select {
+  width: 50%;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+  font-size: 1rem;
+}
+
+.second-input input:focus,
+select {
+  outline: none;
+  color: rgb(255, 255, 255, 0.4);
+}
+
+.third-input select {
+  width: 100%;
+  margin-bottom: 34px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+  font-size: 1rem;
+}
+
+.bmi-btn {
+  width: 40%;
+}
+
+.bmi-btn button {
+  width: 100%;
+}
+/* BMI Calculator Styles End */
+
 /* Team Style Start */
 .team {
   max-width: 1080px;
@@ -285,7 +409,6 @@ main {
   height: 292px;
   object-fit: cover;
   border-radius: 18px;
-  background: rgba(0, 0, 0, 0.2);
   opacity: 0.6;
 }
 

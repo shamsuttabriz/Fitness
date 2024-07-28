@@ -125,6 +125,35 @@
   }
   /*  Run responsive end */
 
+  /* BMI responsive start */
+  .bmi-heading {
+    padding: 20px;
+  }
+  .bmi-title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .bmi-description {
+    padding-right: 30px;
+    margin-bottom: 40px;
+  }
+  .bmi-functionality {
+    padding: 0 20px;
+  }
+  .bmi-content {
+    flex-direction: column;
+  }
+  table {
+    margin: 30px 0;
+  }
+  .bmi-subtitle {
+    font-size: 1.3rem;
+  }
+  .bmi-btn {
+    width: 60%;
+  }
+  /* BMI responsive end */
+
   /* Team responsive start */
   .team {
     padding: 0 20px 100px;
