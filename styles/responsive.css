@@ -200,6 +200,25 @@
   }
   /* Team responsive end */
 
+  /* Membership responsive start */
+  .membership {
+    padding: 0 20px 100px;
+  }
+
+  .membership-title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .membership-description {
+    padding: 0 30px;
+  }
+
+  .membership-plan {
+    flex-direction: column;
+  }
+  /* Membership responsive end */
+
   /* Footer responsive start */
   footer {
     padding: 20px;

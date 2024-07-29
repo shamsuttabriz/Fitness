@@ -173,7 +173,7 @@ nav {
   background: #ffffff1a;
   padding: 17px 24px;
   position: absolute;
-  top: 37%;
+  top: 35%;
   left: 71%;
 }
 
@@ -293,7 +293,8 @@ main {
   width: 100%;
   height: 312px;
   border-radius: 18px;
-  object-fit: cover;
+  object-fit: none;
+  object-position: 69% 31%;
 }
 /* Run Styles End */
 
@@ -481,6 +482,50 @@ select {
   margin-top: 5px;
 }
 /* Team Style End */
+
+/* Membership Style Start */
+.membership {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.membership-heading {
+  max-width: 670px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.membership-description {
+  margin: 20px 0 58px;
+}
+
+.membership-plan {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plan {
+  opacity: 0.8;
+  padding: 30px 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.membership-subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.plan-list-item {
+  list-style: square;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+/* Membership Style End */
 
 /* Footer Styles Start */
 footer {
