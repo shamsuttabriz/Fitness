@@ -60,7 +60,6 @@
 
 header {
   background: linear-gradient(0deg, rgb(0, 0, 0), rgb(46, 46, 46) 100%);
-  position: relative;
 }
 
 /* Navbar style start */
@@ -140,6 +139,7 @@ nav {
 
 .right-hero {
   width: 30%;
+  position: relative;
 }
 
 .hero-heading {
@@ -173,8 +173,8 @@ nav {
   background: #ffffff1a;
   padding: 17px 24px;
   position: absolute;
-  top: 35%;
-  left: 71%;
+  top: 19%;
+  right: -33%;
 }
 
 .video-tutorial {
@@ -188,7 +188,7 @@ nav {
   padding: 17px 24px;
   position: absolute;
   top: 71%;
-  left: 55%;
+  left: -41%;
 }
 
 .red-box {
